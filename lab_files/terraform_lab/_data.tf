@@ -3,6 +3,6 @@ data "aws_ami" "aws_linux" {
   owners      = ["amazon"]
   filter { 
     name   = "name"
-    values = ["amzn-ami-hvm-*-x86_64-gp2",]
+    values = ["amzn2-ami-hvm-2.0.*",]
   } 
 }
